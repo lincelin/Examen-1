@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mostrando: silver;
+  --esperando: gray;
+  --flotando: black;
+}
+
+body{
+  background: #BAE0FF;
+  color: #1B6969;
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: min(calc(90% - 2rem), 700px);
+    height:auto;
+    padding: 1rem;
+    margin: auto;
+    background: #C7F6FF;
+    background-blend-mode: overlay;
+    border-radius: .5rem;
+    z-index: 9999;
+}
+
+p{
+  padding:0.5rem 0; 
+  font-family: Tahoma, sans-serif;
+  ;
+}
+img {
+  height: 170px;
+  width: 200px;
+  align-image: right;
+  border-radius: 10%;
+}
+.Avatar {
+   height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin-top: 0;
+  align:right;
+}
+
+h1 {
+  font-family: Asimovian;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: Pixelify Sans;
+  padding-left: 35px;
+}
+
+nav{
+  margin:1rem 0; 
+
+}
+
+nav a{
+  line-height: 1;
+  text-decoration: none;
+  color:black;
+  margin:0 1rem 0 0;
+  padding:0.3rem 1rem;
+  background:#6588C2;
+  border-radius: .6rem;
+  transition:all ease .75s;
+  font-family: Tahoma;
+}
+
+nav a:hover{
+  color:white;
+  background:#2D5263;  
+  transition:all ease .75s;
+  font-family: Tahoma;
+}
+
+nav a.active{
+  color:white;
+  background:#10264F;
+  font-family: Tahoma;
+
+}
+
+.asimovian-regular {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.cossette-titre-regular {
+  font-family: "Cossette Titre", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cossette-titre-bold {
+  font-family: "Cossette Titre Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
